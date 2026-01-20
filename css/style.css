@@ -60,9 +60,13 @@ footer{
     display: none;
 }
 /* mobile  */
+
+
 @media screen and (max-width: 576px)  {
 
-  
+  body{
+    overflow-x: hidden;
+  }
   .container{
     max-width: 100% !important;
     padding: 0 16px;
