@@ -255,14 +255,13 @@ footer{
   .episode_card {
      width: 280px;
   }
-  .about__wrapper {
-    flex-wrap: wrap;
-    gap: 32px;
-  }
+ 
 
-  .about__wrapper > div {
-
-  }
+  .about__wrapper{
+    display: flex;
+     gap: 16px;
+ }
+  
 
   .episode_main{
 
@@ -336,11 +335,6 @@ footer{
     width: 28px;
   }
 
- 
-  
-
-
-
   .banner__content h1{
     font-size: 36px;
     line-height: 44px;
@@ -372,8 +366,10 @@ footer{
   }
 
  .about__wrapper{
+   justify-content: center;
+   align-items: center;
     display: flex;
-    flex-wrap: wrap;
+     flex-direction: row;
      gap: 16px;
  }
   
